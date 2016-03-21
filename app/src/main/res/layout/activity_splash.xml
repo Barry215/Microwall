@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/face"
+        android:scaleType="fitXY"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/backLogin">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/sign_in"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sign_in"
+                    android:textSize="24sp"
+                    android:textColor="@color/backText"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"/>
+
+                <TextView
+                    android:id="@+id/have_look"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/have_look"
+                    android:textSize="24sp"
+                    android:textColor="@color/backText"
+                    android:gravity="center"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="2dp"
+                android:layout_height="45dp"
+                android:src="@drawable/divide"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

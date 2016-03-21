@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Microwall</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_label">标签</string>
+    
+    <string name="sign_in">登陆</string>
+    <string name="sign_up">注册</string>
+    <string name="have_look">去看看</string>
+    <string name="in_up">邮箱或手机号</string>
+    <string name="password">密码</string>
+    <string name="action_search">搜索</string>
+    <string name="hint_title">标题</string>
+    <string name="hint_content">说点什么吧</string>
+    <string name="check">提交</string>
+
+</resources>
